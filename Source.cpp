@@ -9,8 +9,7 @@ using namespace std;
 
 int main() {
 
-    //initializing barn to feed animals
-    Barn b; 
+    Barn b; //initializing barn
 
     cout << endl; //newline for aesthetics 
 
