@@ -23,9 +23,9 @@ public:
 
 Barn::Barn() {
     //through this function I am adding the animals which will be added to their respective list
-    coop.push_back(Chicken("bob", 120, 214));
-    stalls.push_back(Horse("asdf", 234, 23423));
-    pen.push_back(Cow("agdfg", 435645, 2342));
+    coop.push_back(Chicken("Canes", 120, 214));
+    stalls.push_back(Horse("Charlie", 234, 23423));
+    pen.push_back(Cow("MooMoo", 435645, 2342));
 }
 void Barn::feedChickens() {
     cout << "Feeding the chickens" << endl;
